@@ -9,6 +9,8 @@ Example
 
 -Defined your pipeline.yaml file :
 
+```
+
 #======  Pipeline configuration ======
 
 pipeline:
@@ -16,7 +18,7 @@ pipeline:
       type: scale
     - label: 'second step' 
       type: border
-
+```
 
 -Then execute the command on your image, here "cat.jpg" in directory ".../cat_border" :
 numericalimage -w /Users/user/Documents/numericalImage/cat_border -i cat.jpg -v
@@ -29,9 +31,10 @@ How it works ?
 There is a default configuration for all transformations defined in the "default_configuration.yaml".
 You can override this configuration in your own file configuration. 
 
+```
+
 #=======  Default configuration =====
 
-```
 
 blacktowhite:
     pix_size: 10
@@ -86,11 +89,13 @@ Easy !
 Change your image in a pixel game
 =================================
 
+
+```
+
 ####### NumercialImage Configuration #######
 
 #====  Pipeline configuration ====
 
-```
 
 pipeline:
     - label: 'first step'  
