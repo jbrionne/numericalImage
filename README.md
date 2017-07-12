@@ -104,13 +104,26 @@ pipeline:
       image_type: int_rgb
     - label: 'second step' 
       type: quantize
-    - label: 'first step'  
+    - label: 'third step'  
       type: determine_lines_multi_color
-    - label: 'second step' 
+    - label: 'final step' 
       type: convert_to_html
       multicolor: true
       
 ```
 
+![alt tag](https://user-images.githubusercontent.com/10994894/28102379-124c109a-66cf-11e7-8474-d0d44feb9103.jpg)
 
+>> first step
 
+![alt tag](https://user-images.githubusercontent.com/10994894/28102446-854be16a-66cf-11e7-8596-7a4fd0bc0aa0.png)
+
+>> second step
+
+![alt tag](https://user-images.githubusercontent.com/10994894/28102448-8a2d2c48-66cf-11e7-8aaa-bc7e02809209.png)
+
+>> third step
+
+![alt tag](https://user-images.githubusercontent.com/10994894/28102505-f6fa169c-66cf-11e7-9c43-717b74b66516.png)
+
+>> final step
