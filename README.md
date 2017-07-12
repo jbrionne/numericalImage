@@ -9,7 +9,7 @@ Example
 
 -Defined your pipeline.yaml file :
 
-#==========================  Pipeline configuration ============================
+#======  Pipeline configuration ======
 
 pipeline:
     - label: 'first step'  
@@ -23,13 +23,15 @@ numericalimage -w /Users/user/Documents/numericalImage/cat_border -i cat.jpg -v
 
 See the result in the same directory -> "transform_xxxx.png"
 
-How its work ?
+How it works ?
 ==============
 
 There is a default configuration for all transformations defined in the "default_configuration.yaml".
 You can override this configuration in your own file configuration. 
 
-#==========================  Default configuration ============================
+#=======  Default configuration =====
+
+```
 
 blacktowhite:
     pix_size: 10
@@ -64,14 +66,19 @@ quantize:
       
 convert_to_html:
     multicolor: false
+
+```
     
 In previous example, we can override the scale default configuration with this configuration :
 
+```
 
 pipeline:
     - label: 'first step'  
       type: scale
       scale_factor: 8
+
+```
 
 Easy !
 
@@ -79,9 +86,11 @@ Easy !
 Change your image in a pixel game
 =================================
 
-########################## NumercialImage Configuration ###########################
+####### NumercialImage Configuration #######
 
-#==========================  Pipeline configuration ============================
+#====  Pipeline configuration ====
+
+```
 
 pipeline:
     - label: 'first step'  
@@ -95,7 +104,8 @@ pipeline:
     - label: 'second step' 
       type: convert_to_html
       multicolor: true
-
+      
+```
 
 
 
