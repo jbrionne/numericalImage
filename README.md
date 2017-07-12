@@ -124,6 +124,9 @@ pipeline:
 
 >> third step
 
-![alt tag](https://user-images.githubusercontent.com/10994894/28102505-f6fa169c-66cf-11e7-9c43-717b74b66516.png)
+Numerical treatment without output image!
 
 >> final step
+
+![alt tag](https://user-images.githubusercontent.com/10994894/28103151-a4fd049e-66d4-11e7-9d15-c8d44c86a2d7.png)
+
