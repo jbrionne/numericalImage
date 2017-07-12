@@ -21,7 +21,10 @@ pipeline:
 ```
 
 -Then execute the command on your image, here "cat.jpg" in directory ".../cat_border" :
+
+```
 numericalimage -w /Users/user/Documents/numericalImage/cat_border -i cat.jpg -v
+```
 
 See the result in the same directory -> "transform_xxxx.png"
 
