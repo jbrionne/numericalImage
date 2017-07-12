@@ -1,0 +1,35 @@
+#==========================  Default configuration ============================
+
+blacktowhite:
+    pix_size: 10
+    
+scale:
+    scale_factor: 3
+    
+border:
+    canny_edge_detector:
+        low_threshold: 3.0
+        high_threshold: 3.5
+        gaussian_kernel_radius: 3.0
+        gaussian_kernel_width: 16
+        contrast_normalized: false
+
+reduce:
+    pix_size: 10
+    image_type: byte_gray
+    
+determine_lines:
+    pix_size: 1
+    neutral_color: rgb(170, 0, 0)
+    color_to_treat: rgb(0, 0, 0)
+    line_max_size: 12
+
+determine_lines_multi_color:
+    neutral_color: rgb(170, 0, 0)
+    line_max_size: 12
+    
+quantize:
+    nb_colors: 9
+      
+convert_to_html:
+    multicolor: false

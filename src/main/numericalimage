@@ -1,0 +1,9 @@
+#!/bin/sh
+
+numericalimage_home=$NUMERICALIMAGE_HOME
+
+if [ -z "$NUMERICALIMAGE_HOME" ]; then
+    numericalimage_home="."
+fi  
+
+java -jar $numericalimage_home/numericalimage.jar $*

@@ -1,0 +1,14 @@
+########################## NumercialImage Configuration ###########################
+
+#==========================  Pipeline configuration ============================
+
+pipeline:
+    - label: 'first step'  
+      type: determine_lines_multi_color
+    - label: 'second step' 
+      type: convert_to_html
+      multicolor: true
+
+
+      
+      

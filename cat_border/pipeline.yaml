@@ -1,0 +1,9 @@
+########################## NumercialImage Configuration ###########################
+
+#==========================  Pipeline configuration ============================
+
+pipeline:
+    - label: 'first step'  
+      type: scale
+    - label: 'second step' 
+      type: border

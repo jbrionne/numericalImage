@@ -1,0 +1,17 @@
+########################## NumercialImage Configuration ###########################
+
+#==========================  Pipeline configuration ============================
+
+pipeline:
+    - label: 'first step'  
+      type: blacktowhite
+    - label: 'second step'
+      type: reduce
+    - label: 'third step' 
+      type: determine_lines
+      neutral_color: rgb(170, 0, 0)
+    - label: 'fourth step'
+      type: convert_to_html
+
+      
+      

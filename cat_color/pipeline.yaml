@@ -1,0 +1,15 @@
+########################## NumercialImage Configuration ###########################
+
+#==========================  Pipeline configuration ============================
+
+pipeline:
+    - label: 'first step'  
+      type: reduce
+      pix_size: 21
+      image_type: int_rgb
+    - label: 'second step' 
+      type: quantize
+
+
+      
+      
